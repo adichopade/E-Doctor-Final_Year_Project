@@ -13,7 +13,7 @@ import retrofit2.http.Query;
 interface APIInterface {
 
     @POST("predict")
-    Call<Symptoms> predict(@Body Symptoms symptoms);
+    Call<Response> predict(@Body Symptoms symptoms);
 
 
 }
