@@ -15,5 +15,10 @@ interface APIInterface {
     @POST("predict")
     Call<Response> predict(@Body Symptoms symptoms);
 
+  //  @POST("ileus")
+  //  Call<Response> ileus();
+
+    @POST("which_disease")
+    Call<Response> which_disease(@Body Ans remm);
 
 }

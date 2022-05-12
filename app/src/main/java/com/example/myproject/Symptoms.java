@@ -2,7 +2,7 @@ package com.example.myproject;
 
 
 class Symptoms {
-    String disease;
+
 
     String ab;
     String bc;
@@ -20,8 +20,4 @@ class Symptoms {
         this.fg = fg;
     }
 
-    public String getDisease() {
-        System.out.println(disease);
-        return disease;
-    }
 }
